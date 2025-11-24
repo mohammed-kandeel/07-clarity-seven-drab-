@@ -1,0 +1,1788 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <link rel="icon" href="./images/favicon.webp" type="image/x-icon" />
+      <title>Clarity - Digital Solutions Platform</title>
+
+      <!-- font ( inter ) -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
+
+      <!-- icons -->
+      <link rel="stylesheet" href="./css/all.min.css" />
+
+      <!-- bootstrap -->
+      <link rel="stylesheet" href="./css/bootstrap.min.css" />
+
+      <!-- styles -->
+      <link rel="stylesheet" href="./css/utilities.css" />
+      <link rel="stylesheet" href="./css/style.css" />
+   </head>
+
+   <body class="bg-white-2" data-bs-spy="scroll" data-bs-target="#main-nav">
+      <!-- S T A R T  -->
+      <header>
+         <!-- S T A R T   N A V B A R  -->
+         <nav id="main-nav" class="navbar navbar-expand-lg bg-body-tertiary p-0 fixed-top">
+            <div class="container w-100 py-3">
+               <div class="d-flex align-items-center justify-content-between col-12 col-lg-auto">
+                  <div class="navbar-brand d-flex align-items-center gap-3">
+                     <span class="w-40 h-40 rounded-3 text-white-2 fs-18 d-flex align-items-center justify-content-center linear-gradient-br-primary-secondary">
+                        <i class="fa-solid fa-cube"></i>
+                     </span>
+                     <span class="fs-24 fw-7 text-clip linear-gradient-r-primary-secondary">Clarity</span>
+                  </div>
+
+                  <button
+                     class="navbar-toggler border-0"
+                     type="button"
+                     data-bs-toggle="collapse"
+                     data-bs-target="#navbarSupportedContent"
+                     aria-controls="navbarSupportedContent"
+                     aria-expanded="false"
+                     aria-label="Toggle navigation"
+                  >
+                     <span class="text-black d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-bars"></i>
+                     </span>
+                  </button>
+               </div>
+
+               <div class="collapse navbar-collapse ms-lg-4" id="navbarSupportedContent">
+                  <div class="py-3 px-4 p-lg-0 d-lg-flex align-items-lg-center justify-content-lg-between w-100">
+                     <ul class="navbar-nav me-auto mb-2 mb-lg-0" role="tablist">
+                        <li class="nav-item mb-3 mb-lg-0">
+                           <a class="nav-link active fw-5 me-lg-4 text-gray-700" aria-current="page" href="#hero">Home</a>
+                        </li>
+
+                        <li class="nav-item mb-3 mb-lg-0 dropdown">
+                           <a
+                              class="nav-link fw-5 me-lg-4 text-gray-700 d-flex align-items-center justify-content-between"
+                              href="#"
+                              role="button"
+                              data-bs-toggle="dropdown"
+                              aria-expanded="false"
+                           >
+                              Services
+                              <i class="fa-solid fa-angle-down fs-14 ms-1"></i>
+                           </a>
+                           <div class="dropdown-menu rounded-4 p-lg-4">
+                              <div class="inner">
+                                 <div>
+                                    <h3 class="text-primary-2 fs-14 fw-7 text-uppercase mb-3">Development</h3>
+
+                                    <a class="text-wrap dropdown-item d-flex p-12 align-items-center gap-3 text-decoration-none rounded-4 mb-2" href="#">
+                                       <div
+                                          class="fs-16 rounded-3 text-primary-2 w-40 h-40 d-flex align-items-center justify-content-center linear-gradient-br-primary-secondary bg-opacity-10 flex-shrink-0"
+                                       >
+                                          <i class="fa-solid fa-code"></i>
+                                       </div>
+                                       <div class="d-flex flex-column">
+                                          <span class="fs-16 fw-6">Web Development</span>
+                                          <span class="fs-14 text-gray-500">Custom web applications & websites</span>
+                                       </div>
+                                    </a>
+
+                                    <a class="text-wrap dropdown-item d-flex p-12 align-items-center gap-3 text-decoration-none rounded-4 mb-2" href="#">
+                                       <div
+                                          class="fs-16 rounded-3 text-primary-2 w-40 h-40 d-flex align-items-center justify-content-center linear-gradient-br-primary-secondary bg-opacity-10 flex-shrink-0"
+                                       >
+                                          <i class="fa-solid fa-mobile"></i>
+                                       </div>
+                                       <div class="d-flex flex-column">
+                                          <span class="fs-16 fw-6">Mobile Apps</span>
+                                          <span class="fs-14 text-gray-500">iOS & Android native apps </span>
+                                       </div>
+                                    </a>
+
+                                    <a class="text-wrap dropdown-item d-flex p-12 align-items-center gap-3 text-decoration-none rounded-4" href="#">
+                                       <div
+                                          class="fs-16 rounded-3 text-primary-2 w-40 h-40 d-flex align-items-center justify-content-center linear-gradient-br-primary-secondary bg-opacity-10 flex-shrink-0"
+                                       >
+                                          <i class="fa-solid fa-palette"></i>
+                                       </div>
+                                       <div class="d-flex flex-column">
+                                          <span class="fs-16 fw-6">UI/UX Design</span>
+                                          <span class="fs-14 text-gray-500">User-centered design solutions</span>
+                                       </div>
+                                    </a>
+                                 </div>
+
+                                 <div>
+                                    <h3 class="text-primary-2 fs-14 fw-7 text-uppercase mb-3">Infrastructure & AI</h3>
+
+                                    <a class="text-wrap dropdown-item d-flex p-12 align-items-center gap-3 text-decoration-none rounded-4 mb-2" href="#">
+                                       <div
+                                          class="fs-16 rounded-3 text-primary-2 w-40 h-40 d-flex align-items-center justify-content-center linear-gradient-br-primary-secondary bg-opacity-10 flex-shrink-0"
+                                       >
+                                          <i class="fa-solid fa-cloud"></i>
+                                       </div>
+                                       <div class="d-flex flex-column">
+                                          <span class="fs-16 fw-6">Cloud Solutions</span>
+                                          <span class="fs-14 text-gray-500"> Scalable cloud infrastructure </span>
+                                       </div>
+                                    </a>
+
+                                    <a class="text-wrap dropdown-item d-flex p-12 align-items-center gap-3 text-decoration-none rounded-4 mb-2" href="#">
+                                       <div
+                                          class="fs-16 rounded-3 text-primary-2 w-40 h-40 d-flex align-items-center justify-content-center linear-gradient-br-primary-secondary bg-opacity-10 flex-shrink-0"
+                                       >
+                                          <i class="fa-solid fa-brain"></i>
+                                       </div>
+                                       <div class="d-flex flex-column">
+                                          <span class="fs-16 fw-6">AI & Machine Learning</span>
+                                          <span class="fs-14 text-gray-500">Intelligent automation solutions </span>
+                                       </div>
+                                    </a>
+
+                                    <a class="text-wrap dropdown-item d-flex p-12 align-items-center gap-3 text-decoration-none rounded-4" href="#">
+                                       <div
+                                          class="fs-16 rounded-3 text-primary-2 w-40 h-40 d-flex align-items-center justify-content-center linear-gradient-br-primary-secondary bg-opacity-10 flex-shrink-0"
+                                       >
+                                          <i class="fa-solid fa-database"></i>
+                                       </div>
+                                       <div class="d-flex flex-column">
+                                          <span class="fs-16 fw-6">Data Solutions</span>
+                                          <span class="fs-14 text-gray-500">Database & analytics platforms</span>
+                                       </div>
+                                    </a>
+                                 </div>
+
+                                 <div>
+                                    <h3 class="text-primary-2 fs-14 fw-7 text-uppercase mb-3">Marketing</h3>
+
+                                    <a class="text-wrap dropdown-item d-flex p-12 align-items-center gap-3 text-decoration-none rounded-4 mb-2" href="#">
+                                       <div
+                                          class="fs-16 rounded-3 text-primary-2 w-40 h-40 d-flex align-items-center justify-content-center linear-gradient-br-primary-secondary bg-opacity-10 flex-shrink-0"
+                                       >
+                                          <i class="fa-solid fa-cloud"></i>
+                                       </div>
+                                       <div class="d-flex flex-column">
+                                          <span class="fs-16 fw-6">Digital Marketing </span>
+                                          <span class="fs-14 text-gray-500"> SEO, SEM & social media</span>
+                                       </div>
+                                    </a>
+
+                                    <a class="text-wrap dropdown-item d-flex p-12 align-items-center gap-3 text-decoration-none rounded-4 mb-2" href="#">
+                                       <div
+                                          class="fs-16 rounded-3 text-primary-2 w-40 h-40 d-flex align-items-center justify-content-center linear-gradient-br-primary-secondary bg-opacity-10 flex-shrink-0"
+                                       >
+                                          <i class="fa-solid fa-brain"></i>
+                                       </div>
+                                       <div class="d-flex flex-column">
+                                          <span class="fs-16 fw-6">Content Strategy</span>
+                                          <span class="fs-14 text-gray-500">Engaging content creation</span>
+                                       </div>
+                                    </a>
+                                    <div class="need-help-1 p-3 linear-gradient-br-primary-secondary bg-opacity-10 rounded-4 border-primary-1">
+                                       <h4 class="fs-16 text-gray-900">Need help choosing?</h4>
+                                       <p class="fs-14 mb-2 text-gray-600">Talk to our experts to find the perfect solution for your business.</p>
+                                       <a class="need-help-link text-decoration-none fs-14 text-primary-2 d-flex align-items-center gap-2" href="#services"
+                                          >Contact us
+                                          <span><i class="fa-solid fa-arrow-right"></i></span>
+                                       </a>
+                                    </div>
+                                 </div>
+
+                                 <div class="need-help-2 p-3 linear-gradient-br-primary-secondary bg-opacity-10 rounded-4 border-primary-1">
+                                    <h4 class="fs-16 text-gray-900">Need help choosing?</h4>
+                                    <p class="fs-14 mb-2 text-gray-600">Talk to our experts to find the perfect solution for your business.</p>
+                                    <a class="need-help-link text-decoration-none fs-14 text-primary-2 d-flex align-items-center gap-2" href="#services"
+                                       >Contact us
+                                       <span><i class="fa-solid fa-arrow-right"></i></span>
+                                    </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+
+                        <li class="nav-item mb-3 mb-lg-0">
+                           <a class="nav-link fw-5 me-lg-4 text-gray-700" aria-current="page" href="#technology">Technology</a>
+                        </li>
+                        <li class="nav-item mb-3 mb-lg-0">
+                           <a class="nav-link fw-5 me-lg-4 text-gray-700" aria-current="page" href="#testimonials">Testimonials</a>
+                        </li>
+                        <li class="nav-item mb-3 mb-lg-0">
+                           <a class="nav-link fw-5 me-lg-4 text-gray-700" aria-current="page" href="#faq">FAQ</a>
+                        </li>
+                        <li class="nav-item mb-3 mb-lg-0">
+                           <a class="nav-link fw-5 me-lg-4 text-gray-700" aria-current="page" href="#contact">Contact </a>
+                        </li>
+                     </ul>
+                     <div class="mb-28 d-flex flex-column flex-sm-row gap-2 mb-lg-0 flex-grow-0">
+                        <button class="btn btn-2 fs-16 fw-6 rounded-pill text-nowrap">Sign In</button>
+                        <button class="btn btn-1 fs-16 fw-6 rounded-pill text-nowrap">Get Started</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </nav>
+         <!-- E N D   N A V B A R -->
+
+         <!-- S T A R T   H E R O   S E C T I O N -->
+         <section id="hero" class="py-96 pb-lg-64 d-lg-flex align-items-center">
+            <div class="container">
+               <!-- <div class="d-lg-flex align-items-center justify-content-between gap-4"> -->
+               <div class="items">
+                  <div class="mb-5 mb-lg-0">
+                     <div class="badge rounded-pill fs-14 fw-5 d-inline-flex align-items-center gap-2 bg-primary-2 bg-opacity-10 text-primary-2 py-2 px-3 mb-4">
+                        <span><i class="fa-solid fa-rocket"></i></span>
+                        <span>Transforming Digital Experiences</span>
+                     </div>
+                     <h1 class="fs-36 fs-lg-60 fw-9 mb-4 text-dark-2">
+                        <span class="d-block">Digital Solutions</span>
+                        That Drive
+                        <span class="d-block">Growth</span>
+                     </h1>
+                     <p class="fs-20 text-gray-600 mb-28">
+                        We craft innovative digital experiences that transform businesses and accelerate growth. From cutting-edge web applications to mobile solutions, we deliver technology
+                        that makes a difference.
+                     </p>
+                     <div class="mb-28 d-flex flex-column flex-sm-row gap-3">
+                        <button class="btn btn-1 fs-18 fw-6 rounded-pill">
+                           Start Your Project <span class="ms-2"><i class="fa-solid fa-arrow-right"></i></span>
+                        </button>
+                        <button class="btn btn-2 fs-18 fw-6 rounded-pill">
+                           <span class="me-2"><i class="fa-solid fa-play"></i></span> Watch Demo
+                        </button>
+                     </div>
+                     <div class="pt-4 d-flex align-items-center gap-3 gap-lg-4 text-center">
+                        <div class="pt-2">
+                           <span class="d-block text-primary-2 fs-30 fw-7">500+</span>
+                           <span class="text-gray-600 fs-16">Projects Delivered</span>
+                        </div>
+                        <div class="pt-2 mx-2">
+                           <span class="d-block text-primary-2 fs-30 fw-7">98% </span>
+                           <span class="text-gray-600 fs-16">Client Satisfaction</span>
+                        </div>
+                        <div class="pt-2">
+                           <span class="d-block text-primary-2 fs-30 fw-7">24/7</span>
+                           <span class="text-gray-600 fs-16">Support</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="hero-image pt-1">
+                     <div class="position-relative p-28 p-xl-32 rounded-4 shadow-1 bg-white-2">
+                        <div class="fs-20 shadow-2 text-white d-flex align-items-center justify-content-center position-absolute top-0 start-100 translate-75-left rounded-4">
+                           <i class="fa-solid fa-code"></i>
+                        </div>
+                        <div class="fs-20 shadow-2 text-white d-flex align-items-center justify-content-center position-absolute top-100 start-0 translate-75-right rounded-4">
+                           <i class="fa-solid fa-mobile"></i>
+                        </div>
+                        <div>
+                           <img
+                              class="object-fit-cover rounded-4"
+                              src="./images/hero-img-sGwnWbTh.webp"
+                              alt="modern digital workspace with multiple screens showing web development, mobile apps, and analytics dashboards, professional tech environment"
+                           />
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- E N D   H E R O   S E C T I O N -->
+      </header>
+      <!-- E N D   S E C T I O N -->
+
+      <!-- S T A R T   M A I N -->
+      <main>
+         <!-- S T A R T   S E R V I C E S   S E C T I O N -->
+         <section id="services" class="py-96">
+            <div class="container">
+               <header class="text-center mb-80">
+                  <div class="badge rounded-pill fs-14 fw-5 d-inline-flex align-items-center gap-2 bg-primary-2 bg-opacity-10 text-primary-2 py-2 px-3 mb-4">
+                     <span><i class="fa-solid fa-gears"></i></span>Our Services
+                  </div>
+                  <h2 class="fs-30 fs-lg-48 fw-9 mb-4">
+                     <span class="text-dark-2">Comprehensive</span>
+                     <span class="text-clip linear-gradient-r-primary-secondary">Digital Solutions</span>
+                  </h2>
+                  <p class="fs-20 text-gray-600 max-width-48 m-auto">
+                     From concept to deployment, we provide end-to-end digital services that transform your business and engage your customers.
+                  </p>
+               </header>
+
+               <div class="cards">
+                  <div class="card p-28 p-xl-32 rounded-4">
+                     <div class="card-body p-0 p-0">
+                        <div class="w-64 h-64 fs-24 mb-4 text-white-2 rounded-4 d-flex align-items-center justify-content-center linear-gradient-br-primary-secondary">
+                           <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3 class="fs-20 fw-7 mb-3 text-dark-2">Web Development</h3>
+                        <p class="fs-16 text-gray-600 mb-4">Custom web applications built with cutting-edge technologies. Responsive, scalable, and optimized for performance.</p>
+                        <ul class="list-unstyled d-flex flex-column gap-2 fs-14 text-gray-600 mb-4">
+                           <li class="d-flex align-items-center">
+                              <span class="text-primary-2 me-2"><i class="fa-solid fa-check"></i></span>React & Next.js Development
+                           </li>
+                           <li class="d-flex align-items-center">
+                              <span class="text-primary-2 me-2"><i class="fa-solid fa-check"></i></span>E-commerce Solutions
+                           </li>
+                           <li class="d-flex align-items-center">
+                              <span class="text-primary-2 me-2"><i class="fa-solid fa-check"></i></span>Progressive Web Apps
+                           </li>
+                        </ul>
+                        <a class="fw-6 fs-16 text-primary-2 text-decoration-none d-flex align-items-center" href="#"
+                           >Learn More <span class="ms-2"><i class="fa-solid fa-arrow-right"></i></span
+                        ></a>
+                     </div>
+                  </div>
+
+                  <div class="card p-28 p-xl-32 rounded-4">
+                     <div class="card-body p-0">
+                        <div class="w-64 h-64 fs-24 mb-4 text-white-2 rounded-4 d-flex align-items-center justify-content-center linear-gradient-br-accent-primary">
+                           <i class="fa-solid fa-mobile"></i>
+                        </div>
+                        <h3 class="fs-20 fw-7 mb-3 text-dark-2">Mobile Applications</h3>
+                        <p class="fs-16 text-gray-600 mb-4">Native and cross-platform mobile apps that deliver exceptional user experiences across all devices.</p>
+                        <ul class="list-unstyled d-flex flex-column gap-2 fs-14 text-gray-600 mb-4">
+                           <li class="d-flex align-items-center">
+                              <span class="text-primary-2 me-2"><i class="fa-solid fa-check"></i></span>iOS & Android Development
+                           </li>
+                           <li class="d-flex align-items-center">
+                              <span class="text-primary-2 me-2"><i class="fa-solid fa-check"></i></span>React Native & Flutter
+                           </li>
+                           <li class="d-flex align-items-center">
+                              <span class="text-primary-2 me-2"><i class="fa-solid fa-check"></i></span>App Store Optimization
+                           </li>
+                        </ul>
+                        <a class="fw-6 fs-16 text-primary-2 text-decoration-none d-flex align-items-center" href="#"
+                           >Learn More <span class="ms-2"><i class="fa-solid fa-arrow-right"></i></span
+                        ></a>
+                     </div>
+                  </div>
+
+                  <div class="card p-28 p-xl-32 rounded-4">
+                     <div class="card-body p-0">
+                        <div class="w-64 h-64 fs-24 mb-4 text-white-2 rounded-4 d-flex align-items-center justify-content-center linear-gradient-br-secondary-accent">
+                           <i class="fa-solid fa-cloud"></i>
+                        </div>
+                        <h3 class="fs-20 fw-7 mb-3 text-dark-2">Cloud Solutions</h3>
+                        <p class="fs-16 text-gray-600 mb-4">Scalable cloud infrastructure and services that grow with your business needs and ensure maximum uptime.</p>
+                        <ul class="list-unstyled d-flex flex-column gap-2 fs-14 text-gray-600 mb-4">
+                           <li class="d-flex align-items-center">
+                              <span class="text-primary-2 me-2"><i class="fa-solid fa-check"></i></span>AWS & Azure Integration
+                           </li>
+                           <li class="d-flex align-items-center">
+                              <span class="text-primary-2 me-2"><i class="fa-solid fa-check"></i></span>DevOps & CI/CD
+                           </li>
+                           <li class="d-flex align-items-center">
+                              <span class="text-primary-2 me-2"><i class="fa-solid fa-check"></i></span>Microservices Architecture
+                           </li>
+                        </ul>
+                        <a class="fw-6 fs-16 text-primary-2 text-decoration-none d-flex align-items-center" href="#"
+                           >Learn More <span class="ms-2"><i class="fa-solid fa-arrow-right"></i></span
+                        ></a>
+                     </div>
+                  </div>
+
+                  <div class="card p-28 p-xl-32 rounded-4">
+                     <div class="card-body p-0">
+                        <div class="w-64 h-64 fs-24 mb-4 text-white-2 rounded-4 d-flex align-items-center justify-content-center linear-gradient-br-primary-secondary-accent">
+                           <i class="fa-solid fa-brain"></i>
+                        </div>
+                        <h3 class="fs-20 fw-7 mb-3 text-dark-2">AI & Machine Learning</h3>
+                        <p class="fs-16 text-gray-600 mb-4">Intelligent solutions powered by artificial intelligence and machine learning to automate and optimize processes.</p>
+                        <ul class="list-unstyled d-flex flex-column gap-2 fs-14 text-gray-600 mb-4">
+                           <li class="d-flex align-items-center">
+                              <span class="text-primary-2 me-2"><i class="fa-solid fa-check"></i></span>Predictive Analytics
+                           </li>
+                           <li class="d-flex align-items-center">
+                              <span class="text-primary-2 me-2"><i class="fa-solid fa-check"></i></span>Natural Language Processing
+                           </li>
+                           <li class="d-flex align-items-center">
+                              <span class="text-primary-2 me-2"><i class="fa-solid fa-check"></i></span>Computer Vision
+                           </li>
+                        </ul>
+                        <a class="fw-6 fs-16 text-primary-2 text-decoration-none d-flex align-items-center" href="#"
+                           >Learn More <span class="ms-2"><i class="fa-solid fa-arrow-right"></i></span
+                        ></a>
+                     </div>
+                  </div>
+
+                  <div class="card p-28 p-xl-32 rounded-4">
+                     <div class="card-body p-0">
+                        <div class="w-64 h-64 fs-24 mb-4 text-white-2 rounded-4 d-flex align-items-center justify-content-center linear-gradient-br-accent-secondary">
+                           <i class="fa-solid fa-chart-line"></i>
+                        </div>
+                        <h3 class="fs-20 fw-7 mb-3 text-dark-2">Digital Marketing</h3>
+                        <p class="fs-16 text-gray-600 mb-4">Data-driven marketing strategies that increase brand visibility and drive customer engagement across all channels.</p>
+                        <ul class="list-unstyled d-flex flex-column gap-2 fs-14 text-gray-600 mb-4">
+                           <li class="d-flex align-items-center">
+                              <span class="text-primary-2 me-2"><i class="fa-solid fa-check"></i></span>SEO & SEM Optimization
+                           </li>
+                           <li class="d-flex align-items-center">
+                              <span class="text-primary-2 me-2"><i class="fa-solid fa-check"></i></span>Social Media Management
+                           </li>
+                           <li class="d-flex align-items-center">
+                              <span class="text-primary-2 me-2"><i class="fa-solid fa-check"></i></span>Content Strategy
+                           </li>
+                        </ul>
+                        <a class="fw-6 fs-16 text-primary-2 text-decoration-none d-flex align-items-center" href="#"
+                           >Learn More <span class="ms-2"><i class="fa-solid fa-arrow-right"></i></span
+                        ></a>
+                     </div>
+                  </div>
+
+                  <div class="card p-28 p-xl-32 rounded-4">
+                     <div class="card-body p-0">
+                        <div class="w-64 h-64 fs-24 mb-4 text-white-2 rounded-4 d-flex align-items-center justify-content-center linear-gradient-br-secondary-primary">
+                           <i class="fa-solid fa-palette"></i>
+                        </div>
+                        <h3 class="fs-20 fw-7 mb-3 text-dark-2">UI/UX Design</h3>
+                        <p class="fs-16 text-gray-600 mb-4">User-centered design that creates intuitive, beautiful, and accessible digital experiences that users love.</p>
+                        <ul class="list-unstyled d-flex flex-column gap-2 fs-14 text-gray-600 mb-4">
+                           <li class="d-flex align-items-center">
+                              <span class="text-primary-2 me-2"><i class="fa-solid fa-check"></i></span>User Research & Testing
+                           </li>
+                           <li class="d-flex align-items-center">
+                              <span class="text-primary-2 me-2"><i class="fa-solid fa-check"></i></span>Wireframing & Prototyping
+                           </li>
+                           <li class="d-flex align-items-center">
+                              <span class="text-primary-2 me-2"><i class="fa-solid fa-check"></i></span>Design Systems
+                           </li>
+                        </ul>
+                        <a class="fw-6 fs-16 text-primary-2 text-decoration-none d-flex align-items-center" href="#"
+                           >Learn More <span class="ms-2"><i class="fa-solid fa-arrow-right"></i></span
+                        ></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- E N D   S E R V I C E S   S E C T I O N -->
+
+         <!-- S T A R T   T E C H N O L O G Y   S E C T I O N -->
+         <section id="technology" class="py-96">
+            <div class="container">
+               <header class="text-center mb-80">
+                  <div class="badge rounded-pill fs-14 fw-5 d-inline-flex align-items-center gap-2 bg-primary-2 bg-opacity-10 text-primary-2 py-2 px-3 mb-4">
+                     <span><i class="fa-solid fa-gear"></i></span>Technology Stack
+                  </div>
+                  <h2 class="fs-30 fs-lg-48 fw-9 mb-4">
+                     <span class="text-dark-2">Cutting-Edge</span>
+                     <span class="text-clip linear-gradient-r-primary-secondary">Technologies</span>
+                  </h2>
+                  <p class="fs-20 text-gray-600 max-width-48 m-auto">We leverage the latest technologies and frameworks to build scalable, secure, and high-performance solutions.</p>
+               </header>
+
+               <div class="max-width-72 mx-auto">
+                  <ul class="nav justify-content-center mb-5" id="pills-tab" role="tablist">
+                     <li class="nav-item" role="presentation">
+                        <button
+                           class="nav-link py-2 py-md-3 px-3 px-md-28 fs-18 fw-6 text-gray-600 active"
+                           id="pills-frontend-tab"
+                           data-bs-toggle="pill"
+                           data-bs-target="#pills-frontend"
+                           type="button"
+                           role="tab"
+                           aria-controls="pills-frontend"
+                           aria-selected="true"
+                        >
+                           <span class="me-2"><i class="fa-solid fa-code"></i></span>
+                           Frontend
+                        </button>
+                     </li>
+
+                     <li class="nav-item" role="presentation">
+                        <button
+                           class="nav-link py-2 py-md-3 px-3 px-md-28 fs-18 fw-6 text-gray-600"
+                           id="pills-backend-tab"
+                           data-bs-toggle="pill"
+                           data-bs-target="#pills-backend"
+                           type="button"
+                           role="tab"
+                           aria-controls="pills-backend"
+                           aria-selected="false"
+                        >
+                           <span class="me-2"><i class="fa-solid fa-server"></i></span>
+                           Backend
+                        </button>
+                     </li>
+
+                     <li class="nav-item" role="presentation">
+                        <button
+                           class="nav-link py-2 py-md-3 px-3 px-md-28 fs-18 fw-6 text-gray-600"
+                           id="pills-mobile-tab"
+                           data-bs-toggle="pill"
+                           data-bs-target="#pills-mobile"
+                           type="button"
+                           role="tab"
+                           aria-controls="pills-mobile"
+                           aria-selected="false"
+                        >
+                           <span class="me-2"><i class="fa-solid fa-mobile"></i></span>
+                           Mobile
+                        </button>
+                     </li>
+
+                     <li class="nav-item" role="presentation">
+                        <button
+                           class="nav-link py-2 py-md-3 px-3 px-md-28 fs-18 fw-6 text-gray-600"
+                           id="pills-cloud-devOps-tab"
+                           data-bs-toggle="pill"
+                           data-bs-target="#pills-cloud-devOps"
+                           type="button"
+                           role="tab"
+                           aria-controls="pills-cloud-devOps"
+                           aria-selected="false"
+                        >
+                           <span class="me-2"><i class="fa-solid fa-cloud"></i></span>
+                           Cloud & DevOps
+                        </button>
+                     </li>
+
+                     <li class="nav-item" role="presentation">
+                        <button
+                           class="nav-link py-2 py-md-3 px-3 px-md-28 fs-18 fw-6 text-gray-600"
+                           id="pills-database-tab"
+                           data-bs-toggle="pill"
+                           data-bs-target="#pills-database"
+                           type="button"
+                           role="tab"
+                           aria-controls="pills-database"
+                           aria-selected="false"
+                        >
+                           <span class="me-2"><i class="fa-solid fa-database"></i></span>
+                           Database
+                        </button>
+                     </li>
+                  </ul>
+
+                  <div class="tab-content justify-content-center" id="pills-tabContent">
+                     <div class="tab-pane fade show active" id="pills-frontend" role="tabpanel" aria-labelledby="pills-frontend-tab" tabindex="0">
+                        <div class="mb-5 text-center">
+                           <h3 class="text-dark-2 fs-24 fw-7 mb-3">Frontend Technologies</h3>
+                           <p class="fs-20 text-gray-600 mb-0">Modern frameworks and libraries for creating exceptional user interfaces</p>
+                        </div>
+
+                        <div class="cards">
+                           <div class="card p-28 linear-gradient-br-blue-50-blue-100 rounded-4">
+                              <div class="card-body p-0">
+                                 <span class="fs-24 mb-4 text-white-2 w-64 h-64 bg-blue-500 rounded-4 d-flex align-items-center justify-content-center"
+                                    ><i class="fa-brands fa-react"></i
+                                 ></span>
+                                 <h4 class="fs-20 fw-7 text-dark-2 mb-12">React.js</h4>
+                                 <p class="text-gray-600">Component-based library for building interactive user interfaces with virtual DOM</p>
+                                 <div>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-blue-800 bg-blue-100">JSX</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-blue-800 bg-blue-100 mx-2">Hooks</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-blue-800 bg-blue-100">Redux</span>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="card p-28 linear-gradient-br-gray-50-gray-100 rounded-4">
+                              <div class="card-body p-0">
+                                 <div class="text-white-2 fw-7 fs-16 mb-4 bg-black-2 w-64 h-64 rounded-4 d-flex align-items-center justify-content-center">Next</div>
+                                 <h4 class="fs-20 fw-7 text-dark-2 mb-12">Next.js</h4>
+                                 <p class="text-gray-600">Full-stack React framework with server-side rendering and static generation</p>
+                                 <div>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-gray-800 bg-gray-100">SSR</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-gray-800 bg-gray-100 mx-2">SSG</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-gray-800 bg-gray-100">API Routes</span>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="card p-28 linear-gradient-br-green-50-green-100 rounded-4">
+                              <div class="card-body p-0">
+                                 <span class="fs-24 mb-4 text-white-2 w-64 h-64 bg-green-500 rounded-4 d-flex align-items-center justify-content-center"
+                                    ><i class="fa-brands fa-vuejs"></i
+                                 ></span>
+                                 <h4 class="fs-20 fw-7 text-dark-2 mb-12">Vue.js</h4>
+                                 <p class="text-gray-600">Progressive framework for building user interfaces with excellent developer experience</p>
+                                 <div>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-green-800 bg-green-100">Composition API</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-green-800 bg-green-100 mx-2">Vuex</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-green-800 bg-green-100"> Nuxt</span>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="card p-28 linear-gradient-br-orange-50-orange-100 rounded-4">
+                              <div class="card-body p-0">
+                                 <span class="fs-24 mb-4 text-white-2 w-64 h-64 bg-orange-500 rounded-4 d-flex align-items-center justify-content-center"
+                                    ><i class="fa-brands fa-angular"></i
+                                 ></span>
+                                 <h4 class="fs-20 fw-7 text-dark-2 mb-12">Angular</h4>
+                                 <p class="text-gray-600">Comprehensive platform for building scalable web applications</p>
+                                 <div>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-orange-800 bg-orange-100">TypeScript</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-orange-800 bg-orange-100 mx-2">RxJS</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-orange-800 bg-orange-100">CLI</span>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="card p-28 linear-gradient-br-cyan-50-cyan-100 rounded-4">
+                              <div class="card-body p-0">
+                                 <span class="fs-24 mb-4 text-white-2 w-64 h-64 bg-cyan-500 rounded-4 d-flex align-items-center justify-content-center"
+                                    ><i class="fa-brands fa-css3-alt"></i
+                                 ></span>
+                                 <h4 class="fs-20 fw-7 text-dark-2 mb-12">Tailwind CSS</h4>
+                                 <p class="text-gray-600">Utility-first CSS framework for rapid UI development</p>
+                                 <div>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-cyan-800 bg-cyan-100">JIT</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-cyan-800 bg-cyan-100 mx-2"> Components</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-cyan-800 bg-cyan-100"> Responsive</span>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="card p-28 linear-gradient-br-purple-50-purple-100 rounded-4">
+                              <div class="card-body p-0">
+                                 <span class="fs-24 mb-4 text-white-2 w-64 h-64 bg-purple-500 rounded-4 d-flex align-items-center justify-content-center"
+                                    ><i class="fa-solid fa-bolt"></i
+                                 ></span>
+                                 <h4 class="fs-20 fw-7 text-dark-2 mb-12">Vite</h4>
+                                 <p class="text-gray-600">Next generation frontend tooling with lightning fast builds</p>
+                                 <div>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-purple-800 bg-purple-100">HMR</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-purple-800 bg-purple-100 mx-2">ESM</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-purple-800 bg-purple-100">Rollup</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="tab-pane fade" id="pills-backend" role="tabpanel" aria-labelledby="pills-backend-tab" tabindex="0">
+                        <div class="mb-5 text-center">
+                           <h3 class="text-dark-2 fs-24 fw-7 mb-3">Backend Technologies</h3>
+                           <p class="fs-20 text-gray-600 mb-0">Robust server-side technologies for scalable and secure applications</p>
+                        </div>
+
+                        <div class="cards">
+                           <div class="card p-28 linear-gradient-br-green-50-green-100 rounded-4">
+                              <div class="card-body p-0">
+                                 <span class="fs-24 mb-4 text-white-2 w-64 h-64 bg-green-500 rounded-4 d-flex align-items-center justify-content-center"
+                                    ><i class="fa-brands fa-node-js"></i
+                                 ></span>
+                                 <h4 class="fs-20 fw-7 text-dark-2 mb-12">Node.js</h4>
+                                 <p class="text-gray-600">JavaScript runtime built on Chrome's V8 engine for server-side development</p>
+                                 <div>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-green-800 bg-green-100">Express.js</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-green-800 bg-green-100 mx-2">NPM</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-green-800 bg-green-100"> TypeScript</span>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="card p-28 linear-gradient-br-blue-50-blue-100 rounded-4">
+                              <div class="card-body p-0">
+                                 <span class="fs-24 mb-4 text-white-2 w-64 h-64 bg-blue-500 rounded-4 d-flex align-items-center justify-content-center"
+                                    ><i class="fa-brands fa-python"></i
+                                 ></span>
+                                 <h4 class="fs-20 fw-7 text-dark-2 mb-12">Python</h4>
+                                 <p class="text-gray-600">Versatile programming language with powerful frameworks for web development</p>
+                                 <div>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-blue-800 bg-blue-100">Django</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-blue-800 bg-blue-100 mx-2">FastAPI</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-blue-800 bg-blue-100">Flask</span>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="card p-28 linear-gradient-br-red-50-red-100 rounded-4">
+                              <div class="card-body p-0">
+                                 <div class="text-white-2 fw-7 fs-16 mb-4 bg-red-600 w-64 h-64 rounded-4 d-flex align-items-center justify-content-center">Go</div>
+                                 <h4 class="fs-20 fw-7 text-dark-2 mb-12">Golang</h4>
+                                 <p class="text-gray-600">Fast, statically typed language designed for modern software development</p>
+                                 <div>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-red-800 bg-red-100">Gin</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-red-800 bg-red-100 mx-2">Goroutines</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-red-800 bg-red-100">Microservices</span>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="card p-28 linear-gradient-br-purple-50-purple-100 rounded-4">
+                              <div class="card-body p-0">
+                                 <span class="fs-24 mb-4 text-white-2 w-64 h-64 bg-purple-500 rounded-4 d-flex align-items-center justify-content-center"
+                                    ><i class="fa-brands fa-java"></i
+                                 ></span>
+                                 <h4 class="fs-20 fw-7 text-dark-2 mb-12">Java</h4>
+                                 <p class="text-gray-600">Enterprise-grade platform with robust frameworks for large-scale applications</p>
+                                 <div>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-purple-800 bg-purple-100">Spring Boot</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-purple-800 bg-purple-100 mx-2">Hibernate</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-purple-800 bg-purple-100"> Maven</span>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="card p-28 linear-gradient-br-indigo-50-indigo-100 rounded-4">
+                              <div class="card-body p-0">
+                                 <div class="text-white-2 fw-7 fs-16 mb-4 bg-indigo-600 w-64 h-64 rounded-4 d-flex align-items-center justify-content-center">.NET</div>
+                                 <h4 class="fs-20 fw-7 text-dark-2 mb-12">.NET Core</h4>
+                                 <p class="text-gray-600">Cross-platform framework for building modern, cloud-based applications</p>
+                                 <div>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-indigo-800 bg-indigo-100">C#</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-indigo-800 bg-indigo-100 mx-2">Entity Framework</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-indigo-800 bg-indigo-100">Azure</span>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="card p-28 linear-gradient-br-teal-50-teal-100 rounded-4">
+                              <div class="card-body p-0">
+                                 <span class="fs-24 mb-4 text-white-2 w-64 h-64 bg-teal-600 rounded-4 d-flex align-items-center justify-content-center"><i class="fa-solid fa-gem"></i></span>
+                                 <h4 class="fs-20 fw-7 text-dark-2 mb-12">Ruby</h4>
+                                 <p class="text-gray-600">Dynamic language focused on simplicity and productivity</p>
+                                 <div>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-teal-800 bg-teal-100">Rails</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-teal-800 bg-teal-100 mx-2">Sinatra</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-teal-800 bg-teal-100"> RubyGems</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="tab-pane fade" id="pills-mobile" role="tabpanel" aria-labelledby="pills-mobile-tab" tabindex="0">
+                        <div class="mb-5 text-center">
+                           <h3 class="text-dark-2 fs-24 fw-7 mb-3">Mobile Technologies</h3>
+                           <p class="fs-20 text-gray-600 mb-0">Native and cross-platform solutions for iOS and Android development</p>
+                        </div>
+
+                        <div class="cards">
+                           <div class="card p-28 linear-gradient-br-blue-50-blue-100 rounded-4">
+                              <div class="card-body p-0">
+                                 <span class="fs-24 mb-4 text-white-2 w-64 h-64 bg-blue-500 rounded-4 d-flex align-items-center justify-content-center"
+                                    ><i class="fa-brands fa-node-js"></i
+                                 ></span>
+                                 <h4 class="fs-20 fw-7 text-dark-2 mb-12">React Native</h4>
+                                 <p class="text-gray-600">Cross-platform mobile development using React and JavaScript</p>
+                                 <div>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-blue-800 bg-blue-100">Expo</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-blue-800 bg-blue-100 mx-2">Navigation</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-blue-800 bg-blue-100">Redux</span>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="card p-28 linear-gradient-br-cyan-50-cyan-100 rounded-4">
+                              <div class="card-body p-0">
+                                 <span class="fs-24 mb-4 text-white-2 w-64 h-64 bg-cyan-500 rounded-4 d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-mobile"></i>
+                                 </span>
+                                 <h4 class="fs-20 fw-7 text-dark-2 mb-12">Flutter</h4>
+                                 <p class="text-gray-600">Google's UI toolkit for building natively compiled applications</p>
+                                 <div>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-cyan-800 bg-cyan-100">Dart</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-cyan-800 bg-cyan-100 mx-2">Widgets</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-cyan-800 bg-cyan-100"> Material</span>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="card p-28 linear-gradient-br-gray-50-gray-100 rounded-4">
+                              <div class="card-body p-0">
+                                 <span class="fs-24 mb-4 text-white-2 w-64 h-64 bg-gray-700 rounded-4 d-flex align-items-center justify-content-center"
+                                    ><i class="fa-brands fa-apple"></i
+                                 ></span>
+                                 <h4 class="fs-20 fw-7 text-dark-2 mb-12">iOS Native</h4>
+                                 <p class="text-gray-600">Native iOS development using Swift and Xcode</p>
+                                 <div>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-gray-800 bg-gray-100">Swift</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-gray-800 bg-gray-100 mx-2"> SwiftUI</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-gray-800 bg-gray-100">Core Data</span>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="card p-28 linear-gradient-br-green-50-green-100 rounded-4">
+                              <div class="card-body p-0">
+                                 <span class="fs-24 mb-4 text-white-2 w-64 h-64 bg-green-500 rounded-4 d-flex align-items-center justify-content-center"
+                                    ><i class="fa-brands fa-android"></i
+                                 ></span>
+                                 <h4 class="fs-20 fw-7 text-dark-2 mb-12">Android Native</h4>
+                                 <p class="text-gray-600">Native Android development using Kotlin and Android Studio</p>
+                                 <div>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-green-800 bg-green-100">Kotlin</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-green-800 bg-green-100 mx-2"> Jetpack</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-green-800 bg-green-100"> Room</span>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="card p-28 linear-gradient-br-purple-50-purple-100 rounded-4">
+                              <div class="card-body p-0">
+                                 <span class="fs-24 mb-4 text-white-2 w-64 h-64 bg-purple-500 rounded-4 d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-code"></i
+                                 ></span>
+                                 <h4 class="fs-20 fw-7 text-dark-2 mb-12">Xamarin</h4>
+                                 <p class="text-gray-600">Microsoft's cross-platform solution using C# and .NET</p>
+                                 <div>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-purple-800 bg-purple-100">C# </span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-purple-800 bg-purple-100 mx-2">Forms</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-purple-800 bg-purple-100">MVVM</span>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="card p-28 linear-gradient-br-orange-50-orange-100 rounded-4">
+                              <div class="card-body p-0">
+                                 <span class="fs-24 mb-4 text-white-2 w-64 h-64 bg-orange-500 rounded-4 d-flex align-items-center justify-content-center"
+                                    ><i class="fa-solid fa-globe"></i
+                                 ></span>
+                                 <h4 class="fs-20 fw-7 text-dark-2 mb-12">PWA</h4>
+                                 <p class="text-gray-600">Progressive Web Apps with native-like mobile experiences</p>
+                                 <div>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-orange-800 bg-orange-100">Service Worker</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-orange-800 bg-orange-100 mx-1">Manifest</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-orange-800 bg-orange-100">Offline</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="tab-pane fade" id="pills-cloud-devOps" role="tabpanel" aria-labelledby="pills-cloud-devOps-tab" tabindex="0">
+                        <div class="mb-5 text-center">
+                           <h3 class="text-dark-2 fs-24 fw-7 mb-3">Cloud & DevOps</h3>
+                           <p class="fs-20 text-gray-600 mb-0">Modern cloud infrastructure and deployment technologies</p>
+                        </div>
+
+                        <div class="cards">
+                           <div class="card p-28 linear-gradient-br-orange-50-orange-100 rounded-4">
+                              <div class="card-body p-0">
+                                 <span class="fs-24 mb-4 text-white-2 w-64 h-64 bg-orange-500 rounded-4 d-flex align-items-center justify-content-center">
+                                    <i class="fa-brands fa-aws"></i>
+                                 </span>
+                                 <h4 class="fs-20 fw-7 text-dark-2 mb-12">Amazon AWS</h4>
+                                 <p class="text-gray-600">Comprehensive cloud computing platform with extensive services</p>
+                                 <div>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-orange-800 bg-orange-100">EC2</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-orange-800 bg-orange-100 mx-2"> Lambda</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-orange-800 bg-orange-100"> S3</span>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="card p-28 linear-gradient-br-blue-50-blue-100 rounded-4">
+                              <div class="card-body p-0">
+                                 <span class="fs-24 mb-4 text-white-2 w-64 h-64 bg-blue-500 rounded-4 d-flex align-items-center justify-content-center">
+                                    <i class="fa-brands fa-microsoft"></i>
+                                 </span>
+                                 <h4 class="fs-20 fw-7 text-dark-2 mb-12">Microsoft Azure</h4>
+                                 <p class="text-gray-600">Enterprise cloud platform with integrated development tools</p>
+                                 <div>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-blue-800 bg-blue-100">App Service</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-blue-800 bg-blue-100 mx-2"> Functions</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-blue-800 bg-blue-100"> DevOps</span>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="card p-28 linear-gradient-br-red-50-red-100 rounded-4">
+                              <div class="card-body p-0">
+                                 <span class="fs-24 mb-4 text-white-2 w-64 h-64 bg-red-500 rounded-4 d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-g"></i>
+                                 </span>
+                                 <h4 class="fs-20 fw-7 text-dark-2 mb-12">Google Cloud</h4>
+                                 <p class="text-gray-600">Google's cloud computing platform with AI and ML capabilities</p>
+                                 <div>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-red-800 bg-red-100">Compute Engine</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-red-800 bg-red-100 mx-2"> Cloud Run</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-red-800 bg-red-100">BigQuery</span>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="card p-28 linear-gradient-br-blue-50-blue-100 rounded-4">
+                              <div class="card-body p-0">
+                                 <span class="fs-24 mb-4 text-white-2 w-64 h-64 bg-blue-500 rounded-4 d-flex align-items-center justify-content-center">
+                                    <i class="fa-brands fa-docker"></i>
+                                 </span>
+                                 <h4 class="fs-20 fw-7 text-dark-2 mb-12">Docker</h4>
+                                 <p class="text-gray-600">Containerization platform for consistent application deployment</p>
+                                 <div>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-blue-800 bg-blue-100">Containers</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-blue-800 bg-blue-100 mx-2">Images</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-blue-800 bg-blue-100"> Compose</span>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="card p-28 linear-gradient-br-purple-50-purple-100 rounded-4">
+                              <div class="card-body p-0">
+                                 <div class="text-white-2 fw-7 fs-14 mb-4 bg-purple-600 w-64 h-64 rounded-4 d-flex align-items-center justify-content-center">K8s</div>
+                                 <h4 class="fs-20 fw-7 text-dark-2 mb-12">Kubernetes</h4>
+                                 <p class="text-gray-600">Container orchestration system for automating deployment and scaling</p>
+                                 <div>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-purple-800 bg-purple-100">Pods</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-purple-800 bg-purple-100 mx-2"> Services</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-purple-800 bg-purple-100"> Helm</span>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="card p-28 linear-gradient-br-gray-50-gray-100 rounded-4">
+                              <div class="card-body p-0">
+                                 <span class="fs-24 mb-4 text-white-2 w-64 h-64 bg-gray-700 rounded-4 d-flex align-items-center justify-content-center">
+                                    <i class="fa-brands fa-jenkins"></i>
+                                 </span>
+                                 <h4 class="fs-20 fw-7 text-dark-2 mb-12">CI/CD Pipeline</h4>
+                                 <p class="text-gray-600">Automated build, test, and deployment workflows</p>
+                                 <div>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-gray-800 bg-gray-100">Jenkins</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-gray-800 bg-gray-100 mx-2"> GitHub Actions</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-gray-800 bg-gray-100">GitLab CI</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="tab-pane fade" id="pills-database" role="tabpanel" aria-labelledby="pills-database-tab" tabindex="0">
+                        <div class="mb-5 text-center">
+                           <h3 class="text-dark-2 fs-24 fw-7 mb-3">Database Technologies</h3>
+                           <p class="fs-20 text-gray-600 mb-0">Robust data storage solutions for modern applications</p>
+                        </div>
+
+                        <div class="cards">
+                           <div class="card p-28 linear-gradient-br-blue-50-blue-100 rounded-4">
+                              <div class="card-body p-0">
+                                 <span class="fs-24 mb-4 text-white-2 w-64 h-64 bg-blue-700 rounded-4 d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-database"></i>
+                                 </span>
+                                 <h4 class="fs-20 fw-7 text-dark-2 mb-12">PostgreSQL</h4>
+                                 <p class="text-gray-600">Advanced open-source relational database with JSON support</p>
+                                 <div>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-blue-800 bg-blue-100">ACID</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-blue-800 bg-blue-100 mx-2">JSON</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-blue-800 bg-blue-100">Extensions</span>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="card p-28 linear-gradient-br-green-50-green-100 rounded-4">
+                              <div class="card-body p-0">
+                                 <div class="text-white-2 fw-7 fs-14 mb-4 bg-green-700 w-64 h-64 rounded-4 d-flex align-items-center justify-content-center">Mongo</div>
+                                 <h4 class="fs-20 fw-7 text-dark-2 mb-12">MongoDB</h4>
+                                 <p class="text-gray-600">Flexible NoSQL document database for modern applications</p>
+                                 <div>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-green-800 bg-green-100">Documents</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-green-800 bg-green-100 mx-2">Aggregation </span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-green-800 bg-green-100">Sharding</span>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="card p-28 linear-gradient-br-red-50-red-100 rounded-4">
+                              <div class="card-body p-0">
+                                 <span class="fs-24 mb-4 text-white-2 w-64 h-64 bg-red-700 rounded-4 d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-fire"></i>
+                                 </span>
+                                 <h4 class="fs-20 fw-7 text-dark-2 mb-12">Redis</h4>
+                                 <p class="text-gray-600">In-memory data structure store for caching and real-time applications</p>
+                                 <div>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-red-800 bg-red-100">Cache</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-red-800 bg-red-100 mx-2">Pub/Sub </span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-red-800 bg-red-100">Streams</span>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="card p-28 linear-gradient-br-yellow-50-yellow-100 rounded-4">
+                              <div class="card-body p-0">
+                                 <span class="fs-24 mb-4 text-white-2 w-64 h-64 bg-yellow-600 rounded-4 d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-database"></i>
+                                 </span>
+                                 <h4 class="fs-20 fw-7 text-dark-2 mb-12">MySQL</h4>
+                                 <p class="text-gray-600">Popular open-source relational database management system</p>
+                                 <div>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-yellow-800 bg-yellow-100">InnoDB</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-yellow-800 bg-yellow-100 mx-2">Replication</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-yellow-800 bg-yellow-100">Clustering</span>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="card p-28 linear-gradient-br-purple-50-purple-100 rounded-4">
+                              <div class="card-body p-0">
+                                 <span class="fs-24 mb-4 text-white-2 w-64 h-64 bg-purple-500 rounded-4 d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-chart-line"></i>
+                                 </span>
+                                 <h4 class="fs-20 fw-7 text-dark-2 mb-12">Elasticsearch</h4>
+                                 <p class="text-gray-600">Distributed search and analytics engine for complex queries</p>
+                                 <div>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-purple-800 bg-purple-100">Search</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-purple-800 bg-purple-100 mx-2">Analytics</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-purple-800 bg-purple-100">Kibana</span>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="card p-28 linear-gradient-br-indigo-50-indigo-100 rounded-4">
+                              <div class="card-body p-0">
+                                 <span class="fs-24 mb-4 text-white-2 w-64 h-64 bg-indigo-600 rounded-4 d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-diagram-project"></i>
+                                 </span>
+                                 <h4 class="fs-20 fw-7 text-dark-2 mb-12">GraphQL</h4>
+                                 <p class="text-gray-600">Query language and runtime for APIs with flexible data fetching</p>
+                                 <div>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-indigo-800 bg-indigo-100">Schema</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-indigo-800 bg-indigo-100 mx-2">Resolvers</span>
+                                    <span class="badge fs-12 fw-5 py-1 px-12 rounded-pill text-indigo-800 bg-indigo-100">Apollo</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- E N D   T E C H N O L O G Y   S E C T I O N -->
+
+         <!-- S T A R T   T E S T I M O N  I A L S   S E C T I O N -->
+         <section id="testimonials" class="py-96 linear-gradient-br-gray-50-orange-50">
+            <div class="container">
+               <header class="text-center mb-80">
+                  <div class="badge rounded-pill fs-14 fw-5 d-inline-flex align-items-center gap-2 bg-primary-2 bg-opacity-10 text-primary-2 py-2 px-3 mb-4">
+                     <span class="text-primary-2"><i class="fa-solid fa-heart"></i></span>
+                     Client Testimonials
+                  </div>
+                  <h2 class="fs-30 fs-lg-48 fw-9 mb-4">
+                     <span class="text-dark-2">What Our</span>
+                     <span class="text-clip linear-gradient-r-primary-secondary">Clients Say</span>
+                  </h2>
+                  <p class="fs-20 text-gray-600 max-width-48 m-auto">Don't just take our word for it. Here's what our clients have to say about working with us.</p>
+               </header>
+
+               <div>
+                  <div id="carousel-testimonials" class="carousel slide max-width-64 mx-auto" data-bs-ride="carousel">
+                     <div class="carousel-inner p-2">
+                        <div class="carousel-item px-3 active" data-bs-interval="1700">
+                           <div class="p-5 bg-white-2 rounded-4">
+                              <div class="mb-28 d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-md-between gap-3">
+                                 <div class="d-flex align-items-center gap-3">
+                                    <div class="icon h-64 w-64 fs-20 rounded-4 d-flex align-items-center justify-content-center text-primary-2">
+                                       <i class="fa-solid fa-quote-left"></i>
+                                    </div>
+                                    <div>
+                                       <div class="text-yellow-400 d-flex gap-1">
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                       </div>
+                                       <span class="d-inline-block mt-2 fs-14 fw-5 text-gray-500">5.0 Rating</span>
+                                    </div>
+                                 </div>
+                                 <div class="badge py-2 px-3 fs-14 text-primary-2 rounded-pill d-inline-flex gap-2 align-items-center">
+                                    <span><i class="fa-solid fa-circle-check"></i></span>
+                                    <span>Verified</span>
+                                 </div>
+                              </div>
+                              <blockquote class="fs-20 lh-1-62 text-gray-700 mb-28">
+                                 "Clarity transformed our entire digital presence. Their team's expertise and dedication resulted in a 300% increase in our online sales. Absolutely
+                                 phenomenal work!"
+                              </blockquote>
+                              <div class="info pt-28 d-md-flex justify-content-between align-items-center">
+                                 <figure class="d-flex flex-column flex-md-row gap-3 align-items-center">
+                                    <div class="rounded-circle p-1 position-relative mb-0">
+                                       <div class="position-absolute d-flex align-items-center justify-content-center fs-24 w-28 h-28 end-0 bottom-0 bg-white-2 rounded-circle">
+                                          <i class="fa-solid fa-circle-check linear-gradient-br-primary-secondary text-clip"></i>
+                                       </div>
+                                       <img class="object-fit-cover w-80 h-80 rounded-circle" src="./images/avatar-1.webp" alt="Ahmed Al-Farsi" />
+                                    </div>
+                                    <figcaption class="mb-0">
+                                       <h3 class="fs-18 fw-7 mb-0 text-dark-2">Ahmed Al-Farsi</h3>
+                                       <p class="text-gray-600 mb-0">CEO, RetailMax</p>
+                                       <div class="d-flex align-items-center gap-2 mt-2">
+                                          <span class="bg-primary-2 text-white-2 fs-12"><i class="fa-brands fa-linkedin-in"></i></span>
+                                          <span class="fs-14 text-gray-500">Verified on LinkedIn</span>
+                                       </div>
+                                    </figcaption>
+                                 </figure>
+                                 <div class="d-none d-md-flex flex-column">
+                                    <span class="fs-30 fw-7 text-clip linear-gradient-br-primary-secondary">300% </span>
+                                    <span class="text-gray-500 fs-14">Growth</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="carousel-item px-3" data-bs-interval="3400">
+                           <div class="p-5 bg-white-2 rounded-4">
+                              <div class="mb-28 d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-md-between gap-3">
+                                 <div class="d-flex align-items-center gap-3">
+                                    <div class="icon h-64 w-64 fs-20 rounded-4 d-flex align-items-center justify-content-center text-primary-2">
+                                       <i class="fa-solid fa-quote-left"></i>
+                                    </div>
+                                    <div>
+                                       <div class="text-yellow-400 d-flex gap-1">
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                       </div>
+                                       <span class="d-inline-block mt-2 fs-14 fw-5 text-gray-500">5.0 Rating</span>
+                                    </div>
+                                 </div>
+                                 <div class="badge py-2 px-3 fs-14 text-primary-2 rounded-pill d-inline-flex gap-2 align-items-center">
+                                    <span><i class="fa-solid fa-circle-check"></i></span>
+                                    <span>Verified</span>
+                                 </div>
+                              </div>
+                              <blockquote class="fs-20 lh-1-62 text-gray-700 mb-28">
+                                 "The telemedicine platform they built for us has revolutionized how we serve our patients. The security, reliability, and user experience are all top-notch."
+                              </blockquote>
+                              <div class="info pt-28 d-md-flex justify-content-between align-items-center">
+                                 <figure class="d-flex flex-column flex-md-row gap-3 align-items-center">
+                                    <div class="rounded-circle p-1 position-relative mb-0">
+                                       <div class="position-absolute d-flex align-items-center justify-content-center fs-24 w-28 h-28 end-0 bottom-0 bg-white-2 rounded-circle">
+                                          <i class="fa-solid fa-circle-check linear-gradient-br-primary-secondary text-clip"></i>
+                                       </div>
+                                       <img class="object-fit-cover w-80 h-80 rounded-circle" src="./images/avatar-2.webp" alt="Dr. Michael Chen" />
+                                    </div>
+                                    <figcaption class="mb-0">
+                                       <h3 class="fs-18 fw-7 mb-0 text-dark-2">Dr. Michael Chen</h3>
+                                       <p class="text-gray-600 mb-0">Director, MedCare</p>
+                                       <div class="d-flex align-items-center gap-2 mt-2">
+                                          <span class="bg-primary-2 text-white-2 fs-12"><i class="fa-brands fa-linkedin-in"></i></span>
+                                          <span class="fs-14 text-gray-500">Verified on LinkedIn</span>
+                                       </div>
+                                    </figcaption>
+                                 </figure>
+                                 <div class="d-none d-md-flex flex-column">
+                                    <span class="fs-30 fw-7 text-clip linear-gradient-br-primary-secondary">100K+</span>
+                                    <span class="text-gray-500 fs-14">Patients </span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="carousel-item px-3" data-bs-interval="5100">
+                           <div class="p-5 bg-white-2 rounded-4">
+                              <div class="mb-28 d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-md-between gap-3">
+                                 <div class="d-flex align-items-center gap-3">
+                                    <div class="icon h-64 w-64 fs-20 rounded-4 d-flex align-items-center justify-content-center text-primary-2">
+                                       <i class="fa-solid fa-quote-left"></i>
+                                    </div>
+                                    <div>
+                                       <div class="text-yellow-400 d-flex gap-1">
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                       </div>
+                                       <span class="d-inline-block mt-2 fs-14 fw-5 text-gray-500">5.0 Rating</span>
+                                    </div>
+                                 </div>
+                                 <div class="badge py-2 px-3 fs-14 text-primary-2 rounded-pill d-inline-flex gap-2 align-items-center">
+                                    <span><i class="fa-solid fa-circle-check"></i></span>
+                                    <span>Verified</span>
+                                 </div>
+                              </div>
+                              <blockquote class="fs-20 lh-1-62 text-gray-700 mb-28">
+                                 "Working with Clarity was a game-changer. Their mobile banking app exceeded all our expectations and has processed over $1 billion in transactions."
+                              </blockquote>
+                              <div class="info pt-28 d-md-flex justify-content-between align-items-center">
+                                 <figure class="d-flex flex-column flex-md-row gap-3 align-items-center">
+                                    <div class="rounded-circle p-1 position-relative mb-0">
+                                       <div class="position-absolute d-flex align-items-center justify-content-center fs-24 w-28 h-28 end-0 bottom-0 bg-white-2 rounded-circle">
+                                          <i class="fa-solid fa-circle-check linear-gradient-br-primary-secondary text-clip"></i>
+                                       </div>
+                                       <img class="object-fit-cover w-80 h-80 rounded-circle" src="./images/avatar-3.webp" alt="Eslam Salah" />
+                                    </div>
+                                    <figcaption class="mb-0">
+                                       <h3 class="fs-18 fw-7 mb-0 text-dark-2">Eslam Salah</h3>
+                                       <p class="text-gray-600 mb-0">CTO, FinanceFlow</p>
+                                       <div class="d-flex align-items-center gap-2 mt-2">
+                                          <span class="bg-primary-2 text-white-2 fs-12"><i class="fa-brands fa-linkedin-in"></i></span>
+                                          <span class="fs-14 text-gray-500">Verified on LinkedIn</span>
+                                       </div>
+                                    </figcaption>
+                                 </figure>
+                                 <div class="d-none d-md-flex flex-column">
+                                    <span class="fs-30 fw-7 text-clip linear-gradient-br-primary-secondary">$1B+</span>
+                                    <span class="text-gray-500 fs-14">Processed</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="carousel-item px-3" data-bs-interval="6700">
+                           <div class="p-5 bg-white-2 rounded-4">
+                              <div class="mb-28 d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-md-between gap-3">
+                                 <div class="d-flex align-items-center gap-3">
+                                    <div class="icon h-64 w-64 fs-20 rounded-4 d-flex align-items-center justify-content-center text-primary-2">
+                                       <i class="fa-solid fa-quote-left"></i>
+                                    </div>
+                                    <div>
+                                       <div class="text-yellow-400 d-flex gap-1">
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                       </div>
+                                       <span class="d-inline-block mt-2 fs-14 fw-5 text-gray-500">5.0 Rating</span>
+                                    </div>
+                                 </div>
+                                 <div class="badge py-2 px-3 fs-14 text-primary-2 rounded-pill d-inline-flex gap-2 align-items-center">
+                                    <span><i class="fa-solid fa-circle-check"></i></span>
+                                    <span>Verified</span>
+                                 </div>
+                              </div>
+                              <blockquote class="fs-20 lh-1-62 text-gray-700 mb-28">
+                                 "The AI-powered analytics dashboard they created has given us insights we never had before. Our decision-making process has become so much more data-driven
+                                 and effective."
+                              </blockquote>
+                              <div class="info pt-28 d-md-flex justify-content-between align-items-center">
+                                 <figure class="d-flex flex-column flex-md-row gap-3 align-items-center">
+                                    <div class="rounded-circle p-1 position-relative mb-0">
+                                       <div class="position-absolute d-flex align-items-center justify-content-center fs-24 w-28 h-28 end-0 bottom-0 bg-white-2 rounded-circle">
+                                          <i class="fa-solid fa-circle-check linear-gradient-br-primary-secondary text-clip"></i>
+                                       </div>
+                                       <img class="object-fit-cover w-80 h-80 rounded-circle" src="./images/avatar-4.webp" alt="James Wilson" />
+                                    </div>
+                                    <figcaption class="mb-0">
+                                       <h3 class="fs-18 fw-7 mb-0 text-dark-2">James Wilson</h3>
+                                       <p class="text-gray-600 mb-0">VP of Operations, TechCorp</p>
+                                       <div class="d-flex align-items-center gap-2 mt-2">
+                                          <span class="bg-primary-2 text-white-2 fs-12"><i class="fa-brands fa-linkedin-in"></i></span>
+                                          <span class="fs-14 text-gray-500">Verified on LinkedIn</span>
+                                       </div>
+                                    </figcaption>
+                                 </figure>
+                                 <div class="d-none d-md-flex flex-column">
+                                    <span class="fs-30 fw-7 text-clip linear-gradient-br-primary-secondary">10X </span>
+                                    <span class="text-gray-500 fs-14">Insights </span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="carousel-item px-3" data-bs-interval="8400">
+                           <div class="p-5 bg-white-2 rounded-4">
+                              <div class="mb-28 d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-md-between gap-3">
+                                 <div class="d-flex align-items-center gap-3">
+                                    <div class="icon h-64 w-64 fs-20 rounded-4 d-flex align-items-center justify-content-center text-primary-2">
+                                       <i class="fa-solid fa-quote-left"></i>
+                                    </div>
+                                    <div>
+                                       <div class="text-yellow-400 d-flex gap-1">
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                       </div>
+                                       <span class="d-inline-block mt-2 fs-14 fw-5 text-gray-500">5.0 Rating</span>
+                                    </div>
+                                 </div>
+                                 <div class="badge py-2 px-3 fs-14 text-primary-2 rounded-pill d-inline-flex gap-2 align-items-center">
+                                    <span><i class="fa-solid fa-circle-check"></i></span>
+                                    <span>Verified</span>
+                                 </div>
+                              </div>
+                              <blockquote class="fs-20 lh-1-62 text-gray-700 mb-28">
+                                 "Their cloud migration service was flawless. Zero downtime, improved performance, and significant cost savings. The team's expertise is unmatched."
+                              </blockquote>
+                              <div class="info pt-28 d-md-flex justify-content-between align-items-center">
+                                 <figure class="d-flex flex-column flex-md-row gap-3 align-items-center">
+                                    <div class="rounded-circle p-1 position-relative mb-0">
+                                       <div class="position-absolute d-flex align-items-center justify-content-center fs-24 w-28 h-28 end-0 bottom-0 bg-white-2 rounded-circle">
+                                          <i class="fa-solid fa-circle-check linear-gradient-br-primary-secondary text-clip"></i>
+                                       </div>
+                                       <img class="object-fit-cover w-80 h-80 rounded-circle" src="./images/avatar-4.webp" alt="Omar Wael" />
+                                    </div>
+                                    <figcaption class="mb-0">
+                                       <h3 class="fs-18 fw-7 mb-0 text-dark-2">Omar Wael</h3>
+                                       <p class="text-gray-600 mb-0">IT Director, GlobalTech</p>
+                                       <div class="d-flex align-items-center gap-2 mt-2">
+                                          <span class="bg-primary-2 text-white-2 fs-12"><i class="fa-brands fa-linkedin-in"></i></span>
+                                          <span class="fs-14 text-gray-500">Verified on LinkedIn</span>
+                                       </div>
+                                    </figcaption>
+                                 </figure>
+                                 <div class="d-none d-md-flex flex-column">
+                                    <span class="fs-30 fw-7 text-clip linear-gradient-br-primary-secondary">0%</span>
+                                    <span class="text-gray-500 fs-14">Downtime </span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-indicators position-static mt-4 mb-0">
+                        <button type="button" data-bs-target="#carousel-testimonials" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carousel-testimonials" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carousel-testimonials" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carousel-testimonials" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carousel-testimonials" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- E N D   T E S T I M O N  I A L S   S E C T I O N -->
+
+         <!-- S T A R T   F A Q   S E C T I O N -->
+         <section id="faq" class="py-96 bg-white-2">
+            <div class="container">
+               <header class="text-center mb-80">
+                  <div class="badge rounded-pill fs-14 fw-5 d-inline-flex align-items-center gap-2 bg-primary-2 bg-opacity-10 text-primary-2 py-2 px-3 mb-4">
+                     <span class="text-primary-2"><i class="fa-solid fa-question"></i></span>
+                     FAQ
+                  </div>
+                  <h2 class="fs-30 fs-lg-48 fw-9 mb-4">
+                     <span class="text-dark-2">Frequently Asked</span>
+                     <span class="text-clip linear-gradient-r-primary-secondary">Questions</span>
+                  </h2>
+                  <p class="fs-20 text-gray-600 max-width-48 m-auto">Find answers to common questions about our services, process, and how we can help transform your business.</p>
+               </header>
+
+               <div>
+                  <div id="accordion-FAQ">
+                     <div class="item rounded-4 mb-3 bg-white-2 overflow-hidden">
+                        <h3 class="mb-0">
+                           <button
+                              class="collapsed btn text-start p-4 w-100 h-100 rounded-0 d-flex align-items-center justify-content-between"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse-1"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse-1"
+                           >
+                              <span class="pe-32 fs-18 fw-6 text-dark-2">What services does Clarity offer?</span>
+                              <span class="w-40 h-40 fs-18 text-primary-2 flex-shrink-0 rounded-circle d-inline-flex align-items-center justify-content-center">
+                                 <i class="fa-solid fa-angle-down"></i>
+                              </span>
+                           </button>
+                        </h3>
+                        <div id="flush-collapse-1" class="collapse" data-bs-parent="#accordion-FAQ">
+                           <div class="accordion-body p-4 pt-2 text-gray-600 lh-1-62">
+                              <p class="mb-0">
+                                 We offer a comprehensive range of digital services including web development, mobile applications, cloud solutions, AI & machine learning, digital marketing,
+                                 and UI/UX design. Our team specializes in creating custom solutions tailored to your specific business needs, from initial concept through to deployment and
+                                 ongoing support.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="item rounded-4 mb-3 bg-white-2 overflow-hidden">
+                        <h3 class="mb-0">
+                           <button
+                              class="collapsed btn text-start p-4 w-100 h-100 rounded-0 d-flex align-items-center justify-content-between"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse-2"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse-2"
+                           >
+                              <span class="pe-32 fs-18 fw-6 text-dark-2">How long does a typical project take?</span>
+                              <span class="w-40 h-40 fs-18 text-primary-2 flex-shrink-0 rounded-circle d-inline-flex align-items-center justify-content-center">
+                                 <i class="fa-solid fa-angle-down"></i>
+                              </span>
+                           </button>
+                        </h3>
+                        <div id="flush-collapse-2" class="collapse" data-bs-parent="#accordion-FAQ">
+                           <div class="accordion-body p-4 pt-2 text-gray-600 lh-1-62">
+                              <p class="mb-0">
+                                 Project timelines vary based on complexity and scope. A simple website might take 4-6 weeks, while a complex web application or mobile app could take 3-6
+                                 months. We provide detailed project timelines during our initial consultation and keep you updated throughout the development process with regular milestones
+                                 and deliverables.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="item rounded-4 mb-3 bg-white-2 overflow-hidden">
+                        <h3 class="mb-0">
+                           <button
+                              class="collapsed btn text-start p-4 w-100 h-100 rounded-0 d-flex align-items-center justify-content-between"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse-3"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse-3"
+                           >
+                              <span class="pe-32 fs-18 fw-6 text-dark-2">What is your development process?</span>
+                              <span class="w-40 h-40 fs-18 text-primary-2 flex-shrink-0 rounded-circle d-inline-flex align-items-center justify-content-center">
+                                 <i class="fa-solid fa-angle-down"></i>
+                              </span>
+                           </button>
+                        </h3>
+                        <div id="flush-collapse-3" class="collapse" data-bs-parent="#accordion-FAQ">
+                           <div class="accordion-body p-4 pt-2 text-gray-600 lh-1-62">
+                              <p>We follow an agile development methodology that includes:</p>
+                              <ul class="list-unstyled mb-0">
+                                 <li class="d-flex justify-content-start">
+                                    <span class="text-primary-2 mt-1 me-2"><i class="fa-solid fa-check"></i></span>
+                                    <p class="mb-0"><span class="fw-7">Discovery & Planning:</span> Understanding your requirements and goals</p>
+                                 </li>
+                                 <li class="d-flex justify-content-start">
+                                    <span class="text-primary-2 mt-1 me-2"><i class="fa-solid fa-check"></i></span>
+                                    <p class="mb-0"><span class="fw-7">Design: </span> Creating wireframes and visual designs</p>
+                                 </li>
+                                 <li class="d-flex justify-content-start">
+                                    <span class="text-primary-2 mt-1 me-2"><i class="fa-solid fa-check"></i></span>
+                                    <p class="mb-0"><span class="fw-7">Development:</span> Building your solution with regular updates</p>
+                                 </li>
+                                 <li class="d-flex justify-content-start">
+                                    <span class="text-primary-2 mt-1 me-2"><i class="fa-solid fa-check"></i></span>
+                                    <p class="mb-0"><span class="fw-7">Testing:</span> Rigorous QA and user testing</p>
+                                 </li>
+                                 <li class="d-flex justify-content-start">
+                                    <span class="text-primary-2 mt-1 me-2"><i class="fa-solid fa-check"></i></span>
+                                    <p class="mb-0"><span class="fw-7">Deployment:</span> Launch and ongoing support</p>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="item rounded-4 mb-3 bg-white-2 overflow-hidden">
+                        <h3 class="mb-0">
+                           <button
+                              class="collapsed btn text-start p-4 w-100 h-100 rounded-0 d-flex align-items-center justify-content-between"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse-4"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse-4"
+                           >
+                              <span class="pe-32 fs-18 fw-6 text-dark-2"> Do you provide ongoing support and maintenance? </span>
+                              <span class="w-40 h-40 fs-18 text-primary-2 flex-shrink-0 rounded-circle d-inline-flex align-items-center justify-content-center">
+                                 <i class="fa-solid fa-angle-down"></i>
+                              </span>
+                           </button>
+                        </h3>
+                        <div id="flush-collapse-4" class="collapse" data-bs-parent="#accordion-FAQ">
+                           <div class="accordion-body p-4 pt-2 text-gray-600 lh-1-62">
+                              <p class="mb-0">
+                                 Yes! We offer comprehensive support and maintenance packages to ensure your solution continues to perform optimally. This includes bug fixes, security
+                                 updates, performance optimization, feature enhancements, and technical support. We can customize a maintenance plan that fits your specific needs and budget.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="item rounded-4 mb-3 bg-white-2 overflow-hidden">
+                        <h3 class="mb-0">
+                           <button
+                              class="collapsed btn text-start p-4 w-100 h-100 rounded-0 d-flex align-items-center justify-content-between"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse-5"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse-5"
+                           >
+                              <span class="pe-32 fs-18 fw-6 text-dark-2">What technologies do you work with? </span>
+                              <span class="w-40 h-40 fs-18 text-primary-2 flex-shrink-0 rounded-circle d-inline-flex align-items-center justify-content-center">
+                                 <i class="fa-solid fa-angle-down"></i>
+                              </span>
+                           </button>
+                        </h3>
+                        <div id="flush-collapse-5" class="collapse" data-bs-parent="#accordion-FAQ">
+                           <div class="accordion-body p-4 pt-2 text-gray-600 lh-1-62">
+                              <p class="mb-0">
+                                 We work with cutting-edge technologies across the full stack. For frontend, we use React, Vue.js, Angular, and Next.js. Our backend expertise includes
+                                 Node.js, Python, Golang, and Java. We're proficient in cloud platforms like AWS, Azure, and Google Cloud, and work with both SQL and NoSQL databases. We
+                                 always choose the best technology stack for your specific project requirements.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="item rounded-4 mb-3 bg-white-2 overflow-hidden">
+                        <h3 class="mb-0">
+                           <button
+                              class="collapsed btn text-start p-4 w-100 h-100 rounded-0 d-flex align-items-center justify-content-between"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse-6"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse-6"
+                           >
+                              <span class="pe-32 fs-18 fw-6 text-dark-2">How do you ensure project security and data privacy? </span>
+                              <span class="w-40 h-40 fs-18 text-primary-2 flex-shrink-0 rounded-circle d-inline-flex align-items-center justify-content-center">
+                                 <i class="fa-solid fa-angle-down"></i>
+                              </span>
+                           </button>
+                        </h3>
+                        <div id="flush-collapse-6" class="collapse" data-bs-parent="#accordion-FAQ">
+                           <div class="accordion-body p-4 pt-2 text-gray-600 lh-1-62">
+                              <p class="mb-0">
+                                 Security is our top priority. We implement industry-standard security practices including encryption, secure authentication, regular security audits, and
+                                 compliance with data protection regulations (GDPR, HIPAA, etc.). All our developers sign NDAs, and we use secure development practices throughout the entire
+                                 project lifecycle. We also provide security documentation and training for your team.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- E N D   F A Q   S E C T I O N -->
+
+         <!-- S T A R T   C O N T A C T   S E C T I O N -->
+         <section id="contact" class="py-96 linear-gradient-br-primary-white-secondary bg-opacity-10">
+            <div class="container">
+               <header class="text-center mb-80">
+                  <div class="badge rounded-pill fs-14 fw-5 d-inline-flex align-items-center gap-2 bg-primary-2 bg-opacity-10 text-primary-2 py-2 px-3 mb-4">
+                     <span class="text-primary-2"><i class="fa-solid fa-rocket"></i></span>
+                     Let's Start Your Journey
+                  </div>
+                  <h2 class="fs-48 fs-lg-72 fw-9 mb-4">
+                     <span class="text-dark-2 d-block">Ready to </span>
+                     <span class="text-clip linear-gradient-r-primary-secondary">Transform? </span>
+                  </h2>
+                  <p class="fs-24 text-gray-600 max-width-48 m-auto">Take the first step towards digital excellence. Our experts are ready to turn your vision into reality.</p>
+               </header>
+               <div class="bg-white-2 rounded-5 overflow-hidden shadow-1 border-gray-100 max-width-72 mx-auto d-lg-flex">
+                  <div class="p-4 p-md-5 3">
+                     <div class="mb-28">
+                        <h3 class="fs-24 fw-7 text-dark-2">Get Your Free Consultation</h3>
+                        <p class="fs-18 text-gray-600 mb-0">Fill out the form and we'll get back to you within 24 hours with a personalized proposal.</p>
+                     </div>
+                     <form>
+                        <div class="d-flex flex-column flex-md-row align-items-md-center gap-4 mb-28">
+                           <div class="w-100">
+                              <label class="text-gray-800 fs-14 fw-6 mb-12" for="f-name">First Name *</label>
+                              <input class="form-control rounded-4 py-3 px-20 bg-gray-100" type="text" placeholder="John" id="f-name" name="f-name" aria-label="First name" />
+                           </div>
+                           <div class="w-100">
+                              <label class="text-gray-800 fs-14 fw-6 mb-12" for="l-name">Last Name *</label>
+                              <input class="form-control rounded-4 py-3 px-20 bg-gray-100" type="text" placeholder="Doe" id="l-name" name="l-name" aria-label="last name" />
+                           </div>
+                        </div>
+
+                        <div class="d-flex flex-column flex-md-row align-items-md-center gap-4 mb-28">
+                           <div class="w-100">
+                              <label class="text-gray-800 fs-14 fw-6 mb-12" for="email">Email Address *</label>
+                              <input class="form-control rounded-4 py-3 px-20 bg-gray-100" type="email" id="email" name="email" placeholder="john@company.com" />
+                           </div>
+                           <div class="w-100">
+                              <label class="text-gray-800 fs-14 fw-6 mb-12" for="Company">Company</label>
+                              <input class="form-control rounded-4 py-3 px-20 bg-gray-100" type="text" id="Company" name="Company" placeholder="Your Company Name" />
+                           </div>
+                        </div>
+
+                        <div class="mb-28">
+                           <label class="text-gray-800 fs-14 fw-6 mb-12" for="primary-interest">Primary Interest</label>
+                           <select class="form-select form-control rounded-4 py-3 px-20 bg-gray-100 text-black-2" id="primary-interest" name="primary-interest" aria-label="primary interest">
+                              <option selected>Choose your focus area</option>
+                              <option value="1">Web Development & Design</option>
+                              <option value="2">Mobile App Development</option>
+                              <option value="3">Cloud & Infrastructure</option>
+                              <option value="4">AI & Machine Learning</option>
+                              <option value="5">Digital Marketing & SEO</option>
+                              <option value="6">Complete Digital Transformation</option>
+                           </select>
+                        </div>
+
+                        <div class="mb-28">
+                           <label class="text-gray-800 fs-14 fw-6 mb-12" for="timeline">Primary Interest</label>
+                           <select class="form-select form-control rounded-4 py-3 px-20 bg-gray-100 text-black-2" id="timeline" name="timeline" aria-label="timeline">
+                              <option selected>When do you want to start?</option>
+                              <option value="1">Immediately</option>
+                              <option value="2">Within 1 month</option>
+                              <option value="3">Within 3 months</option>
+                              <option value="4">Within 6 months</option>
+                              <option value="5">Just exploring options</option>
+                           </select>
+                        </div>
+
+                        <div class="mb-28">
+                           <p class="text-gray-800 fs-14 fw-6 mb-12">Project Budget Range</p>
+                           <div class="d-flex flex-column flex-md-row align-items-md-center gap-3 mb-28">
+                              <div class="w-100">
+                                 <input class="radio" type="radio" name="project-budget-range" id="inlineRadio1" value="option1" />
+                                 <label class="form-control rounded-4 py-3 px-20 d-flex flex-column text-center" for="inlineRadio1">
+                                    <span class="text-black-2 fw-6">$25K - $50K </span>
+                                    <span class="fs-14 text-gray-500">Growth</span>
+                                 </label>
+                              </div>
+                              <div class="w-100">
+                                 <input class="radio" type="radio" name="project-budget-range" id="inlineRadio2" value="option2" />
+                                 <label class="form-control rounded-4 py-3 px-20 d-flex flex-column text-center" for="inlineRadio2">
+                                    <span class="text-black-2 fw-6">$50K - $100K</span>
+                                    <span class="fs-14 text-gray-500">Scale</span>
+                                 </label>
+                              </div>
+                              <div class="w-100">
+                                 <input class="radio" type="radio" name="project-budget-range" id="inlineRadio3" value="option3" />
+                                 <label class="form-control rounded-4 py-3 px-20 d-flex flex-column text-center" for="inlineRadio3">
+                                    <span class="text-black-2 fw-6">$100K+ </span>
+                                    <span class="fs-14 text-gray-500">Enterprise</span>
+                                 </label>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="mb-28">
+                           <label class="text-gray-800 fs-14 fw-6 mb-12" for="more-info">Comments</label>
+                           <textarea
+                              class="form-control rounded-4 py-3 px-20 bg-gray-100"
+                              id="more-info"
+                              name="more-info"
+                              style="height: 9.6875rem"
+                              placeholder="Describe your project goals, challenges, and what success looks like for you..."
+                           ></textarea>
+                        </div>
+
+                        <div class="form-check mb-28 d-flex gap-2">
+                           <input class="form-check-input mt-1 me-2" type="checkbox" value="1" name="privacy-policy" id="privacy-policy" />
+                           <label class="fs-14 text-gray-600" for="privacy-policy">
+                              I agree to receive communications and accept the <span><a class="text-decoration-none text-primary-2 fw-5" href="#">Privacy Policy</a></span>
+                           </label>
+                        </div>
+
+                        <!-- Button trigger modal -->
+                        <button
+                           type="button"
+                           class="btn btn-1 py-20 fs-18 fw-6 rounded-4 w-100 linear-gradient-r-primary-secondary-accent"
+                           data-bs-toggle="modal"
+                           data-bs-target="#staticBackdrop"
+                        >
+                           Get My Free Consultation <span class="ms-2"><i class="fa-solid fa-arrow-right"></i></span>
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                           <div class="modal-dialog mt-2">
+                              <div class="modal-content p-3">
+                                 <h1 class="fs-16 fw-7 text-white-2 mb-3" id="staticBackdropLabel">clarity-seven-drab.vercel.app says</h1>
+                                 <p class="fs-14 fw-5 text-white-2">Thank you for your message! We'll get back to you soon.</p>
+                                 <div class="modal-footer p-0 border-0">
+                                    <button type="button" class="px-20 py-2 rounded-pill text-gray-900" data-bs-dismiss="modal">Ok</button>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </form>
+                  </div>
+
+                  <div class="p-4 p-md-5 linear-gradient-br-primary-secondary text-white-2">
+                     <h4 class="fs-24 fw-7 mb-28">Why Choose Clarity?</h4>
+
+                     <div class="d-flex flex-column gap-4 mb-5">
+                        <div class="d-flex align-items-center gap-3">
+                           <div class="fs-16 rounded-3 text-white-2 w-48 h-48 d-flex align-items-center justify-content-center bg-white-2 bg-opacity-25 flex-shrink-0">
+                              <i class="fa-solid fa-clock"></i>
+                           </div>
+                           <div>
+                              <h5 class="fs-16 mb-2">24-Hour Response</h5>
+                              <p class="mb-0 fs-14 text-white-2 text-opacity-75">Quick turnaround on all inquiries with detailed project analysis</p>
+                           </div>
+                        </div>
+                        <div class="d-flex align-items-center gap-3">
+                           <div class="fs-16 rounded-3 text-white-2 w-48 h-48 d-flex align-items-center justify-content-center bg-white-2 bg-opacity-25 flex-shrink-0">
+                              <i class="fa-solid fa-shield-halved"></i>
+                           </div>
+                           <div>
+                              <h5 class="fs-16 mb-2">100% Satisfaction</h5>
+                              <p class="mb-0 fs-14 text-white-2 text-opacity-75">Money-back guarantee if you're not completely satisfied</p>
+                           </div>
+                        </div>
+                        <div class="d-flex align-items-center gap-3">
+                           <div class="fs-16 rounded-3 text-white-2 w-48 h-48 d-flex align-items-center justify-content-center bg-white-2 bg-opacity-25 flex-shrink-0">
+                              <i class="fa-solid fa-users"></i>
+                           </div>
+                           <div>
+                              <h5 class="fs-16 mb-2">Expert Team</h5>
+                              <p class="mb-0 fs-14 text-white-2 text-opacity-75">150+ certified professionals with 8+ years experience</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="pt-4 border-top border-1 border-white border-opacity-25">
+                        <h5 class="fs-16 mb-3">Direct Contact</h5>
+                        <address class="fs-16 d-flex flex-column gap-3 text-white-2">
+                           <div class="d-flex align-items-center gap-2">
+                              <span><i class="fa-solid fa-phone"></i></span>
+                              <span class="text-white-2 text-opacity-90">+1 (555) 123-4567 </span>
+                           </div>
+                           <div class="d-flex align-items-center gap-2">
+                              <span><i class="fa-solid fa-envelope"></i></span>
+                              <span class="text-white-2 text-opacity-90">hello@clarity.com </span>
+                           </div>
+                           <div class="d-flex align-items-center gap-2">
+                              <span><i class="fa-solid fa-location-dot"></i></span>
+                              <span class="text-white-2 text-opacity-90">San Francisco, CA </span>
+                           </div>
+                        </address>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- E N D   C O N T A C T   S E C T I O N -->
+      </main>
+      <!-- E N D   M A I N  -->
+
+      <!-- S T A R T   F O O T E R   S E C T I O N -->
+      <footer>
+         <div class="container">
+            <div class="py-5 d-flex flex-column flex-md-row align-items-md-center justify-content-md-between gap-4">
+               <div>
+                  <div class="d-flex align-items-center mb-12">
+                     <span
+                        class="me-2 text-white-2 text-gray-600 linear-gradient-r-primary-secondary rounded-3 text-decoration-none h-40 w-40 d-inline-flex align-items-center justify-content-center"
+                        ><i class="fa-solid fa-cube"></i
+                     ></span>
+                     <span class="fs-20 fw-7 text-gray-900">Clarity</span>
+                  </div>
+                  <p class="fs-14 mb-0 col-10 text-gray-600">Transforming businesses through innovative digital solutions and cutting-edge technology.</p>
+               </div>
+               <ul class="list-unstyled mb-0 d-flex gap-3 align-items-center">
+                  <li>
+                     <a
+                        class="text-gray-600 bg-gray-100 rounded-3 text-decoration-none h-40 w-40 d-flex align-items-center justify-content-center"
+                        href="https://www.linkedin.com/"
+                        target="_blank"
+                     >
+                        <i class="fa-brands fa-linkedin"></i>
+                     </a>
+                  </li>
+                  <li>
+                     <a class="text-gray-600 bg-gray-100 rounded-3 text-decoration-none h-40 w-40 d-flex align-items-center justify-content-center" href="https://x.com/" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                     </a>
+                  </li>
+                  <li>
+                     <a
+                        class="text-gray-600 bg-gray-100 rounded-3 text-decoration-none h-40 w-40 d-flex align-items-center justify-content-center"
+                        href="https://github.com/"
+                        target="_blank"
+                     >
+                        <i class="fa-brands fa-github"></i>
+                     </a>
+                  </li>
+                  <li>
+                     <a class="text-gray-600 bg-gray-100 rounded-3 text-decoration-none h-40 w-40 d-flex align-items-center justify-content-center" href="#" target="_blank">
+                        <i class="fa-brands fa-dribbble"></i>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+            <div class="py-4 d-flex gap-2 flex-column align-items-center justify-content-center">
+               <p class="mb-0 fs-14 text-gray-600">© 2025 Clarity. All rights reserved.</p>
+               <div class="fs-12 text-gray-500 d-flex gap-2 align-items-center">
+                  <span>Made with</span>
+                  <span class="text-primary-2"><i class="fa-solid fa-heart"></i></span>
+                  <span>for amazing experiences</span>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- E N D   F O O T E R   S E C T I O N -->
+
+      <script src="./js/bootstrap.bundle.min.js"></script>
+   </body>
+</html>
