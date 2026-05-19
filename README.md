@@ -18,6 +18,8 @@
 
 **Clarity** is a fully responsive digital solutions landing page — the **Bootstrap Exam** of my Frontend learning journey. The challenge was to produce a pixel-perfect implementation of a given design mockup using Bootstrap 5, extended with a hand-built utility and design token system, all within a strict deadline.
 
+> A modern digital agency landing page with advanced UI systems and custom design architecture — built as a Bootstrap exam project with a pixel-perfect implementation of a professional mockup.
+
 ---
 
 ## ✨ Technical Highlights
